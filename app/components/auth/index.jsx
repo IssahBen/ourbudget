@@ -25,7 +25,7 @@ export default function WelcomeScreen() {
           className="text-white text-2xl tracking-[4px]"
           style={{ fontFamily: "Inter-ExtraBold" }}
         >
-          PennyPilot
+          Jyra
         </Text>
 
         {/* Hero Section */}
