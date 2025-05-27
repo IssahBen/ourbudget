@@ -45,8 +45,8 @@ export default function WelcomeScreen() {
               Money made simple, Goals made possible.
             </Text>
             <Text
-              className="text-neutral-600 font-semibold text-lg leading-relaxed"
-              style={{ fontFamily: "Inter-Medium" }}
+              className="text-slate-600 font-extrabold text-2xl tracking-wide"
+              style={{ fontFamily: "Inter-ExtraBold" }}
             >
               Welcome to Jyra
             </Text>
