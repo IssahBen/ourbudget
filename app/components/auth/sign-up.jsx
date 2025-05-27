@@ -65,7 +65,7 @@ export default function SignUpScreen() {
   };
 
   return (
-    <SafeAreaView className="flex-1 bg-[#F5F7FA]">
+    <SafeAreaView className="flex-1 bg-yellow-400">
       <KeyboardAvoidingView
         behavior={Platform.OS === "ios" ? "padding" : "height"}
         className="flex-1"
@@ -80,7 +80,7 @@ export default function SignUpScreen() {
             </Text>
           </View>
 
-          <View className="px-6 space-y-4">
+          <View className="px-6 gap-4">
             <View
               className={`flex-row items-center bg-white rounded-xl p-4 border ${
                 nameFocused ? "border-violet-500" : "border-gray-200"
