@@ -9,7 +9,7 @@ import RecentTransactions from "../home/RecentTransactions";
 import { useRouter } from "expo-router";
 import { mockExpenses } from "../../shared/utils/mockData";
 import TransactionForm from "../expense/TransactionForm";
-
+import { StatusBar } from "expo-status-bar";
 export default function HomeScreen() {
   const router = useRouter();
   const [showExpenseModal, setShowExpenseModal] = useState(false);
@@ -34,6 +34,7 @@ export default function HomeScreen() {
       style={{ backgroundColor: colors.backgroundSecondary }}
     >
       <ScrollView>
+        <StatusBar style="dark" backgroundColor="#000" translucent={false} />
         <View className="px-4 pt-2">
           <Typography variant="h4" weight="bold">
             Hello, Alex

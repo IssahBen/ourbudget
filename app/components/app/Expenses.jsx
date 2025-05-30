@@ -98,7 +98,7 @@ export default function ExpensesScreen() {
           elevation: 5,
         }}
       >
-        <Plus color="white" size={24} />
+        <Plus color="black" size={24} />
       </TouchableOpacity>
     </SafeAreaView>
   );
